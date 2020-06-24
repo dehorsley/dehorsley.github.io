@@ -2,7 +2,7 @@
     let name ="";
     let type = ""
 
-    const symbols = "abcdefghijklmnopqrstuvwxyz0123456789".split('');
+    const symbols = " abcdefghijklmnopqrstuvwxyz0123456789".split('');
 
     function mtype(name) {
         name = name.toLowerCase();
