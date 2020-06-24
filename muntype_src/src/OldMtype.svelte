@@ -29,7 +29,7 @@
             }
             type = Math.floor(type/base); 
         }
-        return (name.reverse().join(''));
+        return name.join('');
     }
 
 	function setBothFromName(value) {
